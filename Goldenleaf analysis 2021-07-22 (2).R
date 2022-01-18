@@ -9,7 +9,7 @@ library(car)
 library(emmeans)
 
 
-df<-read.csv(file="C:\\Users\\madar\\OneDrive\\Desktop\\GOLDENLEAF.xlsx - Sheet1.csv",header=TRUE)
+df<-read.csv(file="C:\\Users\\madar\\OneDrive\\Documents\\PlantCommMCSP1\\GoldenLeaf_2022_CSV.csv",header=TRUE)
 names(df)
 
 #df<-df[-which(df$Sample_ID_MCSP3 == ""), ] #deletes all rows that have blank values
